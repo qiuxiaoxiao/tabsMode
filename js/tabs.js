@@ -89,8 +89,6 @@
           },config.auto);
         },
 
-
-
         //事件驱动函数
         invoke:function (currentTab) {
             var _this_ = this;
@@ -116,7 +114,6 @@
                 this.loop = index;
             }
         },
-
 
 
         //获取配置参数
