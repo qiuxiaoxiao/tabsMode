@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tab选项卡</title>
+    <link rel="stylesheet" type="text/css" href="../css/tabs.css">
+    <script type="text/javascript" src="../lib/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript" src="../js/tabs.js"></script>
+</head>
+<body>
+    <div class="js-tab tab" data-config='{
+                                "triggerType":"mouseover",
+                                "effect":"fade",
+                                "invoke":1,
+                                "auto":2000}'>
+        <ul class="tab-nav">
+            <li class="actived"><a href="javascript:void(0)">新闻</a></li>
+            <li><a href="#">电影</a></li>
+            <li><a href="#">娱乐</a></li>
+            <li><a href="#">科技</a></li>
+        </ul>
+
+        <div class="content-wrap">
+            <div class="content-item current">
+                A
+            </div>
+            <div class="content-item">
+                B
+            </div>
+            <div class="content-item">
+                C
+            </div>
+            <div class="content-item">
+                D
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+$(function () {
+    var tab1 = new Tab($(".js-tab").eq(0));
+});
+</script>
+</body>
+</html>
