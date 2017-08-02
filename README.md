@@ -260,3 +260,5 @@ $(function () {
 ```
 1、jquery原型的知识
 2、阻止冒泡事件发生
+
+* 代码见github地址：https://github.com/qiuxiaoxiao/tabsMode
